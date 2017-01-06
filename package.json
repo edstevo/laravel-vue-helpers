@@ -1,6 +1,6 @@
 {
   "name": "laravel-vue-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue helpers for a laravel application",
   "main": "index.js",
   "scripts": {
