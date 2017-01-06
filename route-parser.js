@@ -2,7 +2,7 @@
  * Created by Ed on 02/01/2017.
  */
 
-module.exports  = function () {
+(function () {
 
     function install (Vue, options) {
 
@@ -27,4 +27,4 @@ module.exports  = function () {
         Vue.use(install)
     }
 
-}();
+})();
