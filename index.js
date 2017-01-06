@@ -4,5 +4,5 @@
 
 module.exports = {
 
-    LaravelRouteParser: require('./route-parser/main')
+    LaravelRouteParser: require('./route-parser')
 };
