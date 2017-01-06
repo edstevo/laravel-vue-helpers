@@ -6,10 +6,11 @@
 
     function install (Vue, options) {
 
-        this.routes = options.routes;
+        var _this       = this;
+        _this.routes    = options.routes;
 
         Vue.prototype.parseRoute = function(route, params) {
-            var href    = this.routes[route];
+            var href    = _this.routes[route];
 
             for (var prop in params) {
                 href    = href.replace("{" + prop + "}", params[prop]);
