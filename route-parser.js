@@ -18,6 +18,15 @@
 
             return href;
         }
+
+        Vue.prototype.routeEquals = function(route, params) {
+            var path   = this.parseRoute(route, params);
+            return (window.location.pathname == path);
+        }
+
+        Vue.prototype.pathContains  = function(path) {
+            return (window.location.pathname.includes(path));
+        }
     }
 
     if (typeof exports == "object") {
